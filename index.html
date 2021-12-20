@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<title>igrek</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+	<section class="calc">
+		<div class="calc__container container">
+			<h2 class="calc__answer">
+				0
+			</h2>
+			<form class="calc__form" action="#">
+				<div class="calc__form-inner">
+					<p class="calc__input-wrapper">
+						<input id="input_1" class="calc__input" type="number" />
+						<label class="calc__label" for="input_1">Number 1</label>
+					</p>
+					<select class="calc__select" name="do">
+						<option value="+">+</option>
+						<option value="-">-</option>
+						<option value="*">*</option>
+						<option value="/">/</option>
+					</select>
+					<p class="calc__input-wrapper">
+						<input id="input_2" class="calc__input" type="number" />
+						<label class="calc__label" for="input_2">Number 2</label>
+					</p>
+				</div>
+				<button type="button" class="calc__calculate">calculate!</button>
+			</form>
+
+		</div>
+	</section>
+
+
+	<script src="./js/main.js">
+	</script>
+</body>
+
+</html>
